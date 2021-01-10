@@ -1,0 +1,224 @@
+html, body{
+    background-color: #FAFAFA;
+    margin: 0; 
+    height: 100%; 
+    overflow: visible;
+  
+}
+
+#nav_bar{
+    width: 250px;
+    height: 700px;
+    /* background-color: blue;  */
+    float: left;
+
+}
+
+h1{
+    text-align: center;
+}
+#nav_text{
+    position: relative;
+    top: 10px;
+    right: 25px;
+    font-family: 'Abril Fatface', cursive;
+ 
+}
+#nav_text_menu{
+    /* background-color: beige; */
+    width: 150px;
+    height:350px;
+    margin: 56px;
+    position: relative;
+    top: 10px;
+    
+}
+.nav_text_attributes{
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.dashed{
+    text-decoration:line-through;
+    text-decoration-color: red;
+    
+}
+a{
+    text-decoration: none;
+    color: #898989;
+}
+
+#cart_button{
+    position: relative;
+    top: 10px;
+    left:50px;
+    border-radius: 25px;
+    background: #FF4E4E;
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+#cart_text{
+    color: #FFFEFE;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+#home_top{
+    width: 700px;
+    height: 250px;
+    /* background-color: yellow; */
+    float: left;
+    margin-top: 70px;
+    
+}
+
+#home_top_right{
+    float: left;
+    width: 300px;
+    height: 250px;
+    /* background-color: #FF4E4E; */
+    margin-top: 70px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+#home_top_h1{
+    font-size: 70px;
+    text-align: justify;
+    margin: 30px;
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 60px;
+}
+
+#home_top_right_h4{
+    margin: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#ruler{
+    width: 60px;
+    border: 1px solid red;
+   
+    margin: 30px;
+}
+#home_bottom{
+    width: 1200px;
+    height: 400px;
+    /* background-color: bisque; */
+    position: relative;
+    top: 290px;
+    left:250px;
+    
+    
+}
+.menu_card{
+    width: 160px;
+    height: 200px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 12px;
+    /* margin-right: 0; */
+    right: 200px;
+    bottom: 300px;
+    border-radius: 25px;
+    
+    -webkit-box-shadow: 11px 25px 25px 5px rgba(226,226,226,0.86); 
+    box-shadow: 11px 25px 25px 5px rgba(226,226,226,0.86);
+    display: inline-block;
+    float: left;
+    
+    
+}
+
+.menu_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    /* background-color: #FF4E4E; */
+    margin: 30px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.menu_text{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+/* #shopping_cart{
+    visibility: hidden;
+}
+
+#navbar_mobile{
+    visibility: hidden;
+}
+
+#home_mobile{
+    visibility: hidden;
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+        #nav_text{
+            position: relative;
+            top: -25px;
+            left: 62px;
+            font-family: 'Abril Fatface', cursive;
+            font-size: 16px;
+            margin: 10px;
+         
+        }    
+        .mobile_view_h1{
+            display: none;
+        }
+
+        #shopping_cart{
+            visibility: visible;
+            font-size: 25px;
+            position: relative;
+            top: 65px;
+            left: 320px;
+            color: red;
+            opacity: 0.7;
+            margin-right: 10px;
+        }
+
+        #navbar_mobile{
+            visibility: visible;
+            font-size: 25px;
+            position: relative;
+            top: 36px;
+            left: 30px;
+            margin-left: 10px;
+            color: red;
+            opacity: 0.7;
+        }
+
+        #home_mobile{
+            visibility: visible;
+            font-family: 'Abril Fatface', cursive;
+        }
+
+    } */
